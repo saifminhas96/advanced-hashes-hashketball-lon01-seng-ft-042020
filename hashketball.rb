@@ -170,7 +170,7 @@ end
 def player_stats(player_name)
 game_hash.each do |home_away, keys|
 keys[:players].each do |player|
-  
+  Hash.new = stored_data
   if player = player[:player_name]
 return player
 end
