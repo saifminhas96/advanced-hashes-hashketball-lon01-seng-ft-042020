@@ -168,6 +168,7 @@ end
 end
 
 def player_stats(player_name)
+hash = {}
 game_hash.each do |home_away, keys|
 keys[:players].each do |player|
 
