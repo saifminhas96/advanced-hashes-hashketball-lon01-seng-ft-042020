@@ -173,11 +173,11 @@ game_hash.each do |home_away, keys|
 keys[:players].each do |player|
 
   if player_name == player[:player_name]
-return hash.delete(:player_name) == player
+return hash.delete(:player_name) = player
 end
  end 
  end
-
+end
   
   
   
