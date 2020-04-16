@@ -174,7 +174,8 @@ keys[:players].each do |player|
 
   if player_name == player[:player_name]
 hash = player
-return hash.delete(:player_name)
+ hash.delete(:player_name)
+ return hash
 end
  end 
  end
