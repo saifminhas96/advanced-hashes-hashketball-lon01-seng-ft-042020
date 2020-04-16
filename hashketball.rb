@@ -173,7 +173,7 @@ game_hash.each do |home_away, keys|
 keys[:players].each do |player|
 
   if player = player[:player_name]
-return hash = {:player_name}
+return hash = {:player}
 end
  end 
  end
